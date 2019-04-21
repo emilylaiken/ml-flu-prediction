@@ -4,7 +4,7 @@ This repository contains the codebase for the project "Machine Learning for Stat
 particularly relevent sub-projects:
 
 1. Ch. 2 of Emily Aiken's undergraduate thesis for Harvard's computer science concentration, "Machine Learning for Epidemiological 
-Prediction"
+Prediction" (open-access version coming soon, see https://emilylaiken.github.io/ili-viz/#first for a summary and interactive dashboard)
 2. "Interpretability in Data-Driven Epidemiological Forecasting," Emily Aiken and Jonathan Waring's final project for APCOMP221 at Harvard
 3. The paper "title tbd" (in progress)
 
