@@ -1,0 +1,160 @@
+city_id,dma_id,dma_name,scf_name,state_acronym,state_name,scf_lat,scf_long
+2,662,Abilene - Sweetwater,Abilene,TX,Texas,32.19054555,-99.76974947
+6,532,Albany - Schenectady - Troy,Albany,NY,New York,42.69958994,-73.91361045
+5,525,"Albany, GA",Albany,GA,Georgia,31.46033971,-83.8729811
+7,790,Albuquerque - Santa Fe,Albuquerque,NM,New Mexico,35.35426017,-106.4874199
+8,644,"Alexandria, LA",Alexandria,LA,Louisiana,31.4272763,-92.41802254
+11,634,Amarillo,Amarillo,TX,Texas,35.26753349,-101.6807773
+12,743,Anchorage,Anchorage,AK,Alaska,60.13664934,-155.5951019
+17,524,Atlanta,Atlanta,GA,Georgia,33.78690139,-84.4165723
+18,520,Augusta,Augusta,GA,Georgia,33.44998047,-82.02839068
+19,635,"Austin, TX",Austin,TX,Texas,30.2711125,-97.77226042
+20,800,Bakersfield,Bakersfield,CA,California,35.70488876,-119.1456262
+21,512,Baltimore,Baltimore,MD,Maryland,39.33083009,-76.57086543
+23,716,Baton Rouge,Baton Rouge,LA,Louisiana,30.47415138,-91.1431325
+24,692,Beaumont - Port Arthur,Beaumont,TX,Texas,30.09322077,-94.12482987
+26,821,"Bend, OR",Bend,OR,Oregon,43.86164428,-120.5593293
+125,746,Biloxi - Gulfport,Gulfport,MS,Mississippi,30.43853205,-88.994594
+27,630,Birmingham (Anniston and Tuscaloosa),Birmingham,AL,Alabama,33.69576367,-86.69361435
+30,559,Bluefield - Beckley - Oak Hill,Bluefield,WV,West Virginia,37.33815041,-81.560467
+31,757,Boise,Boise,ID,Idaho,43.76364626,-116.3368781
+32,506,Boston (Manchester),Boston,MA,Massachusetts,42.33405054,-71.06761883
+33,736,Bowling Green,Bowling Green,KY,Kentucky,36.91374539,-86.4674461
+39,514,Buffalo,Buffalo,NY,New York,42.86890619,-78.75555385
+40,523,Burlington - Plattsburgh,Burlington,VT,Vermont,44.53584161,-72.92567328
+47,637,Cedar Rapids - Waterloo & Dubuque,Cedar Rapids,IA,Iowa,42.06500856,-91.52375492
+49,648,Champaign & Springfield - Decatur,Champaign,IL,Illinois,39.98278884,-88.14530647
+51,564,Charleston-Huntington,Charleston,WV,West Virginia,38.33607984,-81.56469293
+50,519,"Charleston, SC",Charleston,SC,South Carolina,32.9651581,-80.11232868
+52,517,Charlotte,Charlotte,NC,North Carolina,35.22897928,-80.88807814
+53,584,Charlottesville,Charlottesvil,VA,Virginia,38.19117508,-78.85554751
+54,575,Chattanooga,Chattanooga,TN,Tennessee,35.07003973,-85.25046868
+55,759,Cheyenne - Scottsbluff,Cheyenne,WY,Wyoming,41.27676568,-105.1169943
+56,602,Chicago,Chicago,IL,Illinois,41.86651221,-87.67273498
+59,515,Cincinnati,Cincinnati,OH,Ohio,39.12889114,-84.42336452
+60,598,Clarksburg - Weston,Clarksburg,WV,West Virginia,39.2672478,-80.23432063
+61,510,Cleveland,Cleveland,OH,Ohio,41.49421259,-81.5675057
+65,546,"Columbia, SC",Columbia,SC,South Carolina,33.95770482,-80.89367186
+69,673,Columbus - Tupelo - West Point,Columbus,MS,Mississippi,33.53642809,-88.83770817
+67,522,"Columbus, GA",Columbus,GA,Georgia,32.49639884,-84.88118222
+70,535,"Columbus, OH",Columbus,OH,Ohio,40.04446492,-82.9817578
+73,600,Corpus Christi,Corpus Christ,TX,Texas,27.74582009,-97.61137078
+108,623,Dallas - Fort Worth,Fort Worth,TX,Texas,32.69587751,-97.41516945
+76,542,Dayton,Dayton,OH,Ohio,39.86989926,-84.18758166
+79,751,Denver,Denver,CO,Colorado,39.86502458,-104.9786775
+80,679,Des Moines - Ames,Des Moines,IA,Iowa,41.55866865,-93.47949185
+81,505,Detroit,Detroit,MI,Michigan,42.28483544,-83.31707052
+82,606,Dothan,Dothan,AL,Alabama,31.2964438,-85.55239897
+85,676,Duluth - Superior,Duluth,MN,Minnesota,47.05383139,-92.42797418
+89,765,El Paso,El Paso,TX,Texas,31.68814282,-106.262376
+91,565,Elmira,Elmira,NY,New York,42.28110359,-77.06384275
+93,516,Erie,Erie,PA,Pennsylvania,42.02581803,-80.05040381
+95,801,Eugene,Eugene,OR,Oregon,43.55675951,-123.451579
+96,802,Eureka,Eureka,CA,California,40.73824343,-123.9344066
+97,649,Evansville,Evansville,IN,Indiana,37.87846931,-87.5584022
+99,745,Fairbanks,Fairbanks,AK,Alaska,65.73293771,-153.1603327
+102,513,Flint - Saginaw - Bay City,Flint,MI,Michigan,43.16913261,-83.42412828
+103,570,Florence - Myrtle Beach,Florence,SC,South Carolina,34.06564955,-79.40891443
+105,571,Fort Myers - Naples,Fort Myers,FL,Florida,26.51351993,-81.82158866
+101,670,Fort Smith - Fayetteville - Springdale - Rogers,Fayetteville,NC,North Carolina,34.75004556,-78.73087276
+107,509,Fort Wayne,Fort Wayne,IN,Indiana,41.12760838,-85.17460637
+111,866,Fresno - Visalia,Fresno,CA,California,36.80250834,-119.752805
+119,563,Grand Rapids - Kalamazoo - Battle Creek,Grand Rapids,MI,Michigan,43.12645942,-85.82765922
+120,658,Green Bay - Appleton,Green Bay,WI,Wisconsin,44.66942579,-88.00604281
+121,518,Greensboro - High Point - Winston-Salem,Greensboro,NC,North Carolina,36.01760534,-79.89059406
+124,545,Greenville - New Bern - Washington,Greenville,TX,Texas,33.36088411,-95.80889142
+123,567,Greenville - Spartansburg - Asheville - Anderson,Greenville,SC,South Carolina,34.73610414,-82.36551217
+184,636,Harlingen - Weslaco - Brownsville - McAllen,McAllen,TX,Texas,26.27238547,-98.03368393
+128,566,Harrisburg - Lancaster - Lebanon - York,Harrisburg,PA,Pennsylvania,40.4167122,-77.08045745
+130,533,Hartford & New Haven,Hartford,CT,Connecticut,41.82804291,-72.66781507
+131,710,Hattiesburg - Laurel,Hattiesburg,MS,Mississippi,31.33483107,-89.30829887
+133,744,Honolulu,Honolulu,HI,Hawaii,20.97096827,-157.3093599
+135,691,Huntsville - Decatur (Florence),Huntsville,AL,Alabama,34.70727401,-86.89529129
+136,527,Indianapolis,Indianapolis,IN,Indiana,39.83972185,-86.12807078
+139,718,"Jackson, MS",Jackson,MS,Mississippi,32.36371884,-89.86473887
+140,639,"Jackson, TN",Jackson,TN,Tennessee,35.60870942,-88.56491561
+141,561,"Jacksonville, Brunswick",Jacksonville,FL,Florida,30.24399424,-81.81083535
+143,574,Johnstown - Altoona,Johnstown,PA,Pennsylvania,40.37819332,-78.91624475
+236,508,Pittsburgh,Pittsburgh,PA,Pennsylvania,40.36904962,-79.99257558
+147,616,Kansas City,Kansas City,MO,Missouri,39.09712326,-94.3916222
+150,557,Knoxville,Knoxville,TN,Tennessee,36.07097285,-83.85866599
+153,582,"Lafayette, IN",Lafayette,IN,Indiana,40.39091999,-87.05294392
+154,642,"Lafayette, LA",Lafayette,LA,Louisiana,30.22482103,-92.12119127
+155,643,Lake Charles,Lake Charles,LA,Louisiana,30.37362307,-93.16298514
+158,551,Lansing,Lansing,MI,Michigan,42.96265756,-84.65434825
+160,839,Las Vegas,Las Vegas,NV,Nevada,36.25093269,-115.2160044
+164,541,Lexington,Lexington,KY,Kentucky,37.94852004,-84.38638151
+165,558,Lima,Lima,OH,Ohio,40.82305837,-84.18686864
+166,722,Lincoln & Hastings - Kearney,Lincoln,NE,Nebraska,40.69194761,-96.70255963
+168,693,Little Rock - Pine Bluff,Little Rock,AR,Arkansas,34.62351252,-92.25169354
+172,803,Los Angeles,Los Angeles,CA,California,34.00839739,-118.3229481
+173,529,Louisville,Louisville,KY,Kentucky,38.19709809,-85.74666824
+174,651,Lubbock,Lubbock,TX,Texas,33.54215119,-102.0017967
+177,669,Madison,Madison,WI,Wisconsin,42.97546428,-89.61802739
+185,813,Medford - Klamath Falls,Medford,OR,Oregon,42.37840965,-123.1018235
+186,640,Memphis,Memphis,TN,Tennessee,35.08743286,-89.8916357
+191,617,Milwaukee,Milwaukee,WI,Wisconsin,43.04802687,-88.09430687
+192,613,Minneapolis - Saint Paul,Minneapolis,MN,Minnesota,44.98102108,-93.553552
+193,686,Mobile - Pensacola (Fort Walton Beach),Mobile,AL,Alabama,30.78602907,-88.02068197
+196,628,Monroe - El Dorado,Monroe,LA,Louisiana,32.55120287,-91.99939143
+257,828,Monterey - Salinas,Salinas,CA,California,36.504861,-121.6209291
+197,698,Montgomery (Selma),Montgomery,AL,Alabama,32.23695003,-86.25312062
+201,659,Nashville,Nashville,TN,Tennessee,36.1134107,-86.78838738
+206,622,New Orleans,New Orleans,LA,Louisiana,29.91939664,-90.11668781
+207,501,New York,New York,NY,New York,40.75510031,-73.97917638
+210,544,Norfolk - Portsmouth - Newport News,Norfolk,VA,Virginia,37.13529672,-76.17467734
+190,633,Odessa - Midland,Midland,TX,Texas,31.64811104,-101.9763992
+217,650,Oklahoma City,Oklahoma City,OK,Oklahoma,35.4003913,-97.62797341
+219,652,Omaha,Omaha,NE,Nebraska,41.30922284,-96.00435469
+220,534,Orlando - Daytona Beach - Melbourne,Orlando,FL,Florida,28.34992721,-81.14896503
+223,632,Paducah - Cape Girardeau - Harrisburg - Mt Vernon,Paducah,KY,Kentucky,36.91543766,-88.57157011
+226,656,Panama City,Panama City,FL,Florida,30.48387276,-85.57083777
+227,597,Parkersburg,Parkersburg,WV,West Virginia,39.22700371,-81.29442734
+28,675,Peoria - Bloomington,Bloomington,IL,Illinois,40.50022815,-88.92675065
+234,504,Philadelphia,Philadelphia,PA,Pennsylvania,39.9960457,-75.18254724
+235,753,Phoenix,Phoenix,AZ,Arizona,33.64195304,-112.0989282
+241,500,Portland - Auburn,Portland,ME,Maine,44.08223227,-70.1404522
+242,820,"Portland, OR",Portland,OR,Oregon,45.5846875,-122.6074317
+244,521,Providence - New Bedford,Providence,RI,Rhode Island,41.73657376,-71.3543895
+246,560,Raleigh - Durham (Fayetteville),Raleigh,NC,North Carolina,35.87906486,-78.64495755
+249,811,Reno,Reno,NV,Nevada,39.61556872,-119.6216676
+250,556,Richmond - Petersburg,Richmond,VA,Virginia,37.5427688,-77.26151568
+251,573,Roanoke - Lynchburg,Roanoke,VA,Virginia,37.08191235,-80.31376408
+253,610,Rockford,Rockford,IL,Illinois,42.2387776,-89.31209686
+293,862,Sacramento - Stockton - Modesto,Stockton,CA,California,37.80048792,-120.7838697
+289,609,Saint Louis,St. Paul,MN,Minnesota,44.9971616,-93.00443792
+258,770,Salt Lake City,Salt Lake Cit,UT,Utah,40.80270536,-111.675346
+259,641,San Antonio,San Antonio,TX,Texas,29.31450231,-98.6292489
+261,825,San Diego,San Diego,CA,California,32.89296198,-117.084905
+262,807,San Francisco - Oakland - San Jose,San Francisco,CA,California,37.60540205,-122.3266308
+266,855,Santa Barbara - Santa Maria - San Luis Obispo,Santa Barbara,CA,California,34.62174073,-119.7255544
+268,507,Savannah,Savannah,GA,Georgia,32.15890881,-81.14629691
+270,819,Seattle - Tacoma,Seattle,WA,Washington,47.26890251,-121.4455438
+273,612,Shreveport,Shreveport,LA,Louisiana,32.48829031,-93.65129175
+274,624,Sioux City,Sioux City,IA,Iowa,42.54659229,-96.14855058
+275,725,Sioux Falls (Mitchell),Sioux Falls,SD,South Dakota,43.52046942,-96.87368734
+277,588,South Bend - Elkhart,South Bend,IN,Indiana,41.51711141,-86.10551901
+282,881,Spokane,Spokane,WA,Washington,47.68987156,-117.247268
+285,543,Springfield - Holyoke,Springfield,MA,Massachusetts,42.26605573,-72.56675061
+284,619,"Springfield, MO",Springfield,IL,Illinois,39.77025979,-89.59509678
+295,555,Syracuse,Syracuse,NY,New York,43.02342579,-76.20047789
+297,530,Tallahassee - Thomasville,Tallahassee,FL,Florida,30.33337193,-84.26525105
+298,539,Tampa - Saint Petersburg (Sarasota),Tampa,FL,Florida,28.11821447,-82.45764472
+300,581,Terre Haute,Terre Haute,IN,Indiana,39.46397339,-87.31804023
+303,547,Toledo,Toledo,OH,Ohio,41.55000571,-83.70707096
+304,605,Topeka,Topeka,KS,Kansas,39.07824808,-95.98669145
+305,540,Traverse City - Cadillac,Traverse City,MI,Michigan,44.5426968,-85.63285979
+307,789,Tucson (Sierra Vista),Tucson,AZ,Arizona,32.13260748,-110.8482748
+308,671,Tulsa,Tulsa,OK,Oklahoma,36.24545095,-95.94414084
+311,709,Tyler - Longview (Lufkin & Nacogdoches),Tyler,TX,Texas,32.24883011,-95.33235779
+312,526,Utica,Utica,NY,New York,43.12933534,-75.25046425
+316,625,Waco - Temple - Bryan,Waco,TX,Texas,31.6408389,-97.09573861
+321,705,Wausau - Rhinelander,Wausau,WI,Wisconsin,44.87314934,-89.79051949
+325,548,West Palm Beach - Fort Pierce,West Palm Bea,FL,Florida,26.76096775,-80.22293532
+328,678,Wichita - Hutchinson,Wichita,KS,Kansas,37.62760643,-97.45794558
+329,627,Wichita Falls & Lawton,Wichita Falls,TX,Texas,33.79123891,-98.74428078
+330,577,Wilkes Barre - Scranton,Wilkes Barre,PA,Pennsylvania,41.17649214,-75.9710254
+331,550,Wilmington,Wilmington,DE,Delaware,39.39587474,-75.55366168
+230,810,Yakima - Pasco - Richland - Kennewick,Pasco,WA,Washington,46.35917756,-118.9916145
+335,536,Youngstown,Youngstown,OH,Ohio,40.87049004,-80.75581258
+336,596,Zanesville,Zanesville,OH,Ohio,39.96001417,-81.73174026
