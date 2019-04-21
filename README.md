@@ -44,4 +44,11 @@ The most relevent replication code can be found in the models folder, which cont
 hyperparameter tuning, etc. Code for evaluation and plots in the paper can be found in the evaluation folder.
 
 #### APCOMP221 Project
+TODO:
+- Start keeping a coding notebook
+- Produce feature importance heatmaps for each week for state-level for GRU (not including any trends data). Save in results folder.
+- Cross-influence matrices that show how much each state influences each other state (average the feature importance heatmaps for all the weeks in the evaluation period, then try creating cross-influence matrices by lag (lag 1, lag 2, lag 3, lag 4)
+- Clustering of locations based on signatures in feature importance heatmaps (average the heatmaps across all the weeks in the evaluation period, then try this: https://seaborn.pydata.org/generated/seaborn.clustermap.html)
+- Project write-up
+- Poster
 
