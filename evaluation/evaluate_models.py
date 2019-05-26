@@ -32,8 +32,14 @@ for l in model_labels:
 		palette[l] = 'mediumseagreen'
 	elif 'AR' in l:
 		palette[l] = 'orange'
-	elif 'Persistance' in l or 'Persistence' in l:
+	else:
 		palette[l] = 'indianred'
+
+palette['AR'] = 'orange'
+palette['LR'] = 'mediumseagreen'
+palette['RF'] = 'royalblue'
+palette['GRU'] = 'mediumpurple'
+palette['Pers.'] = 'indianred'
 
 palette_flat = ['indianred', 'orange', 'mediumseagreen', 'royalblue', 'orchid']
 
@@ -58,6 +64,33 @@ def load_data_for_evaluation(geogran):
 	else:
 		return df_cities, results
 
+def load_data2(geogran):
+	# Load original data from city- and state-level
+	df_cities = load_flu_cities_subset('../')
+	df_states = load_flu_states('../')
+	num_eval_cities = int((len(df_cities) - 52)*(2/4))
+	num_eval_states = int((len(df_states) - 52)*(2/4))
+	# Load model runs
+	results = {model:{} for model in models}
+	for model in models:
+		for th in ths:
+			if geogran == 'state':
+				if model == 'forecasting_lstm' or model == 'nowcasting_lstm':
+					results[model][th] = load_run('../new_new_results_state/' + str(th) + '/' + model + '.json', num_eval_states)
+				else:
+					results[model][th] = load_run('../results/no_coefs/results_states/' + model + '/' + str(th) + '.json', num_eval_states)
+			else:
+				if model == 'forecasting_lstm':
+					results[model][th] = load_run('../new_results_city/' + str(th) + '/' + model + '.json', num_eval_cities)
+				elif model == 'nowcasting_lstm':
+					results[model][th] = load_run('../new_new_results_city/' + str(th) + '/' + model + '.json', num_eval_cities)
+				else:
+					results[model][th] = load_run('../results/no_coefs/results_cities/' + model + '/' + str(th) + '.json', num_eval_cities)
+	if geogran == 'state':
+		return df_states, results
+	else:
+		return df_cities, results
+
 # Violin Plot
 def plot_violins(ax, models, metric, labels, colors=None):
     if metric == 'corr':
@@ -74,6 +107,10 @@ def plot_violins(ax, models, metric, labels, colors=None):
             ax.axhline(np.median(model_eval), color=palette_flat[e], xmax=0.02, linewidth=2)
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
+    if metric == 'rmse':
+    	ax.set_ylim(0, 2)
+    else:
+    	ax.set_ylim(0, 1)
 
 def plot_violins_compare(ax, forecasting_models, nowcasting_models, metric, labels, colors=None, geogran='state'):
     if metric == 'corr':
@@ -92,7 +129,7 @@ def plot_violins_compare(ax, forecasting_models, nowcasting_models, metric, labe
     results2['Digital Data?'] = [True for _ in range(len(results2))]
     results = pd.concat([results1, results2], ignore_index=True)
     if colors is None:
-    	g = sns.violinplot(data=results, x='groups', y='vals', hue='Digital Data?', ax=ax, split=True, inner=None, palette="Set2")
+    	g = sns.violinplot(data=results, x='groups', y='vals', hue='Digital Data?', ax=ax, split=True, inner=None, palette="Pastel1")
     else:
     	g = sns.violinplot(data=results, x='groups', y='vals', hue='Digital Data?', ax=ax, split=True, inner=None, palette=colors)
     ax.set_ylim(0, 2)
@@ -141,12 +178,13 @@ def plot_lines_single(ax, models, city, title, labels, colors):
 			ax.fill_between(dates, models[i][city]['ytrues'], color='lightgrey', label='Ground truth')
 		ax.plot(dates, models[i][city]['yhats'], label=labels[i], color=colors[i], linewidth=3)
 		ax.set_xlim(min(dates), max(dates))
-	ax.set_title(title)
+	ax.set_title(title, fontsize='medium')
 	ax.xaxis.set_major_locator(years)
 	ax.xaxis.set_major_formatter(years_format)
 	#ax.legend(loc='best')
 	ax.spines['right'].set_visible(False)
 	ax.spines['top'].set_visible(False)
+	ax.set_ylim(0)
 
 def plot_evolution(ax, models_by_th, city, colors, title):
 	for t, th in enumerate(models_by_th.keys()):
@@ -157,11 +195,12 @@ def plot_evolution(ax, models_by_th, city, colors, title):
 		ax.plot(dates, model[city]['yhats'], color=colors[t], label=str(th) + ' week', linewidth=3)
 		ax.set_xlim(min(dates), max(dates))
 		#ax.set_ylim(0, max([max([max(model[city]['ytrues']), max(model[city]['yhats'])]) for model in models_by_th.values()]))
-	ax.set_title(title, fontsize='large')
+	ax.set_title(title, fontsize='medium')
 	ax.xaxis.set_major_locator(years)
 	ax.xaxis.set_major_formatter(years_format)
+	ax.set_ylim(0)
 	#ax.legend(loc='best')
 	ax.spines['right'].set_visible(False)
 	ax.spines['top'].set_visible(False)
 
-evolution_palette = ['mediumslateblue', 'dodgerblue', 'yellowgreen', 'lightcoral']
+evolution_palette = ['mediumblue', 'forestgreen', 'gold', 'mediumvioletred']

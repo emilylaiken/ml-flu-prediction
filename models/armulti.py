@@ -12,7 +12,6 @@ import seaborn as sns
 
 from preprocessing import normalize, denormalize, to_supervised
 from utils import load_flu, load_flu_states, load_flu_cities_subset
-from evaluate_models import plot_violins
 
 # AR-multi model
 def ar_multi(df, th, n_test, nonlinear=False, long_test=False):

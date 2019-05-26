@@ -108,3 +108,23 @@ def crop_run(run, min_date, max_date):
 		for item in run[city].keys():
 			run[city][item] = [run[city][item][i] for i in range(len(dates)) if i in eval_ids]
 	return run
+
+# Reorganize data from distributed model runs (which each calculate predictions for a single week) 
+# into a json file that contains all the predictions
+def reorganize():
+	df = load_flu_cities_subset()
+	states = df.columns
+	results = {state:{'dates':[], 'ytrues':[], 'yhats':[], 'coefs':[]} for state in states}
+	for th in [8]:
+		for n_test in range(200, 0, -1):
+			with open('new_new_results_city/new_results_lstm_city/nowcasting_lstm_' + str(th) + '_' + str(n_test) + '.json') as f:
+				run = json.load(f)
+			for state in run.keys():
+				for key in ['dates', 'ytrues', 'yhats', 'coefs']:
+					results[state][key].append(run[state][key][0])
+		with open('new_new_results_city/' + str(th) + '/nowcasting_lstm.json', 'w') as outfile:
+			json.dump(results, outfile)
+
+
+
+
